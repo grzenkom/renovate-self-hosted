@@ -1,1 +1,1 @@
-# renovate-self-hosted
+# How to automate dependency updates with the Renovate@Roche bot
