@@ -8,4 +8,5 @@ The `.gitlab-ci.yml` files contain definitions of GitLab CI pipelines.
 
 ## Acknowledgements
 
-Kudos to @BrunnerLivio for starting the Renovate@Roche project!
+Kudos to [BrunnerLivio](https://github.com/BrunnerLivio) for starting
+the Renovate@Roche project!
