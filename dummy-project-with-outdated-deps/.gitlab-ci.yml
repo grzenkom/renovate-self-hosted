@@ -1,0 +1,17 @@
+stages:
+  - lint
+  - test
+
+pre_commit:
+  stage: lint
+  image: cicd-utilities/pre-commit:0.11.0
+  script:
+    - pre-commit run --all-files
+
+unit_tests:
+  stage: test
+  image: python:3.11.9-slim
+  script:
+    - pip install -r requirements.txt
+    - export PYTHONPATH=`pwd`
+    - pytest
