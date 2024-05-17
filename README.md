@@ -5,3 +5,7 @@ This repository contains materials for the talk
 presented at [DevOps Pro Europe 2024](https://devopspro.lt/).
 
 The `.gitlab-ci.yml` files contain definitions of GitLab CI pipelines.
+
+## Acknowledgements
+
+Kudos to @BrunnerLivio for starting the Renovate@Roche project!
