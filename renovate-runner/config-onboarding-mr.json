@@ -1,0 +1,9 @@
+{
+    "extends": [
+        "config:recommended"
+    ],
+    "labels": [
+        "Type::Maintenance"
+    ],
+    "rebaseWhen": "behind-base-branch"
+}

@@ -1,0 +1,14 @@
+stages:
+  - renovate
+
+variables:
+  LOG_LEVEL: info
+  RENOVATE_CONFIG_FILE: config.js
+
+renovate:
+  image:
+    name: renovate/renovate:37.356-slim
+    entrypoint: [""]
+  stage: renovate
+  script:
+    - renovate
